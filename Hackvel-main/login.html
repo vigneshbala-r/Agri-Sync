@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriTech - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to AgriTech</h1>
+        <p>Empowering Farmers, Connecting Communities</p>
+
+        <div class="login-form">
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <div class="input-icon">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <img src="pic/e2.png" alt="Email Icon">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">PASSWORD</label>
+                <div class="input-icon">
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <img src="pic/imgi1.png" alt="Password Icon" id="eye-icon" onclick="togglePassword()">
+                </div>
+            </div>
+
+            <button class="login-btn">LOGIN</button>
+            <p class="signup-link">Don't have an account? <a href="2pg.html">Sign Up</a></p>
+        </div>
+    </div>
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>
